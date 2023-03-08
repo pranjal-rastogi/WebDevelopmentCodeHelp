@@ -1,0 +1,29 @@
+.box{
+  /*  Translate  */
+    /* horizontal vertical  */
+      background-color: aqua;
+    transform: translate(10px,20px);
+    transform: translateX(50px);
+    transform: translateY(50px);
+
+    /* Rotate  */
+    /* postive  -- clockwise move  */
+    transform: rotate(45deg);
+    /* negative -- anticlockwise move  */
+    transform: rotate(-45deg);
+
+    /* Scale  */
+    margin: 200px;
+    /* horizontal vertical   */
+    transform: scale(1,10);
+    transform: scaleX(2);
+    transform: scaleY(4) ;
+
+    /* Skew  */
+    transform:skew(40deg) ;
+    transform:skew(-40deg) ;
+
+    /* Matrix  */
+    /* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}

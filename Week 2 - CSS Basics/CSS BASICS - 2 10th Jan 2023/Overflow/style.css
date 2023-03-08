@@ -1,0 +1,23 @@
+.visible{
+    border: 1px solid black;
+    height: 100px;
+    overflow: visible;
+}
+.hidden{
+    margin-top: 150px;
+    border: 1px solid black;
+    height: 100px;
+    overflow: hidden;
+}
+.scroll{
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 100px;
+    overflow: scroll;
+}
+.auto{
+
+    border: 1px solid black;
+    height: 100px;
+    overflow: auto;
+}

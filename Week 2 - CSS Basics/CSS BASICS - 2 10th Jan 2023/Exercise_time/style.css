@@ -1,0 +1,29 @@
+.centre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#box1{
+    position: relative;
+    bottom: 695px;
+    position: fixed;
+}
+#box2{
+    position: relative;
+    top: 695px;
+    position: fixed;
+}
+#box3{
+    position: relative;
+    top: 695px;
+    left: 1500px;
+    position: fixed;
+}
+#box4{
+    position: relative;
+    left: 1500px;
+    position:fixed;
+    bottom: 695px;
+}
